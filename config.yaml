@@ -1,0 +1,29 @@
+# config.yaml — People Counter configuration
+# All fields are optional. CLI args override these values.
+
+# Video source:
+#   "0"                    → webcam
+#   "video.mp4"            → local file
+#   "rtsp://ip:port/path"  → IP camera stream
+source: "0"
+
+# YOLOv8 model size. Larger = more accurate but slower.
+# Options: yolov8n.pt  yolov8s.pt  yolov8m.pt  yolov8l.pt  yolov8x.pt
+model: "yolov8n.pt"
+
+# Counting line position as a fraction of frame height (0.0 = top, 1.0 = bottom)
+line_pos: 0.5
+
+# Minimum detection confidence (0.0–1.0)
+conf: 0.4
+
+# Show live window. Set to false for headless/server use.
+show: true
+
+# Save annotated output video. Comment out or set to null to disable.
+save: null
+# save: "output.mp4"
+
+# RTSP reconnection settings
+rtsp_retry: 5      # seconds to wait between reconnect attempts
+max_retries: 10    # give up after this many failed attempts
