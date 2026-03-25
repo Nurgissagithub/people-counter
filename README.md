@@ -24,7 +24,7 @@ Each person is assigned a persistent ID. When their path crosses a configurable 
 ```bash
 conda create -n people-counter python=3.10 -y
 conda activate people-counter
-pip install -r requirements.txt
+pip install "ultralytics>=8.2.0" "opencv-python>=4.7.0" "numpy>=1.26.4"
 ```
 
 ---
@@ -92,7 +92,6 @@ Models download automatically from Ultralytics on first run.
 people-counter/
 ├── main.py          # Code
 ├── config.yaml      # Configuration file
-├── requirements.txt
 └── README.md
 ```
 
