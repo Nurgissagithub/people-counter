@@ -38,7 +38,7 @@ python main.py --source 0
 
 ### Video file
 ```bash
-python main.py --source video.mp4 --save output.mp4
+python main.py --source test.mp4 --save output.mp4
 ```
 
 ### RTSP stream (IP camera)
