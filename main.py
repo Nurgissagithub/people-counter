@@ -1,6 +1,5 @@
 """
-main.py — Day 3: Production Entry Point
-People/Object Counter Project
+main.py — People Counter Project
 
 Unified launcher with:
 - RTSP stream support with auto-reconnect

@@ -1,4 +1,4 @@
-# People / Object Counter
+# People Counter
 
 Real-time people counting from video streams using **YOLOv8** (detection) and **ByteTrack** (multi-object tracking).
 
