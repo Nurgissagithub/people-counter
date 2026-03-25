@@ -43,7 +43,7 @@ python main.py --source video.mp4 --save output.mp4
 
 ### RTSP stream (IP camera)
 ```bash
-python main.py --source rtsp://192.168.1.100:554/stream
+python main.py --source rtsp://username:password@ip:port/path
 ```
 
 ### Config file
