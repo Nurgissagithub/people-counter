@@ -90,9 +90,7 @@ Models download automatically from Ultralytics on first run.
 
 ```
 people-counter/
-├── main.py          # Production entry point (Day 3)
-├── tracker.py       # Standalone tracker script (Day 2)
-├── detector.py      # Standalone detector script (Day 1)
+├── main.py          # Code
 ├── config.yaml      # Configuration file
 ├── requirements.txt
 └── README.md
